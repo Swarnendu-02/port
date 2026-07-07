@@ -1,0 +1,510 @@
+@media only screen and (min-width: 1700px){
+ :root {
+        --padding: 80px;
+        --p30: 45px;
+        --p40: 35px;
+        --p20: 25px;
+        --cominline: 5;
+        --facleft: 600px;
+        --regileft: 400px;
+        --sideslide: 12px;
+    }
+body {
+    font-size: 16px;
+}
+
+    .heading h5 {
+        font-size: 19px;
+    }
+
+    .heading h2 {
+        font-size: 89px;
+    }
+
+    .committee_wrap .heading h5,
+    .committee_wrap .heading h2 {
+        padding: 0;
+    }
+
+    .committee_inner {
+        /* padding: calc(var(--bs-gutter-x) / 2); */
+    }
+
+    .committee_box h5,
+    .msg_committee_box h5 {
+        font-size: 16px;
+    }
+
+    .committee_box h6,
+    .msg_committee_box h6 {
+        font-size: 15px;
+    }
+
+
+
+    .new_footer_area {
+        padding: var(--p40) 0;
+    }
+
+
+    .venue_inner h4 {
+        font-size: 90px;
+    }
+
+    .venue_inner h6 {
+        font-size: 16px;
+    }
+
+    .msg_bottom p {
+        line-height: 34px;
+        font-size: 18px;
+        /* width: 46%; */
+    }
+
+    .msg_bottom .msg_committee_inner {
+        /* width: 54%; */
+    }
+
+    .vanue_distance_inner div {
+        /* width: 140px; */
+    }
+
+    .vanue_distance_inner div p {
+        font-size: 16px;
+    }
+
+    .vanue_distance_inner div p n {
+        font-size: 22px;
+    }
+
+    .accm_right h4 {
+
+font-size: 24px;
+
+}
+
+    .accm_right ul li {
+        font-size: 20px;
+    }
+
+    .regi_inner {
+        width: 1300px;
+    }
+
+    .accm-wrap .container, .committee_wrap .container {
+        width: calc(100% - 400px);
+    }
+
+    .intfacult {
+        /* grid-template-columns: 1fr 1fr 1fr; */
+    }
+
+    .accm_inner {
+        padding-bottom: 34vh;
+    }
+
+    .regi_inner_right {
+        padding-left: 60px;
+    }
+
+    .inclution_wrap h4,
+    .counter_zone_left h4 {
+        margin-bottom: 12px;
+        font-size: 20px;
+        letter-spacing: .8px;
+    }
+
+    .counter_zone_left h4 {
+        margin-bottom: 0;
+    }
+
+    .main_btn {
+        padding: 13px 25px;
+        font-size: 15px;
+        /* gap: 5px; */
+    }
+
+    .inner_page_banner h3 {
+        font-size: 230px;
+        line-height: 174px;
+    }
+
+    .committee_flex,
+    .faculty_wrap {
+        /* flex-direction: column; */
+    }
+
+    .committe_left,
+    .faculty_left,
+    .faculty_right {
+        /* width: 100%; */
+        /* flex-direction: row; */
+        /* align-items: center; */
+    }
+
+    .committee_flex .committee_inner {
+        /* width: 100%; */
+        /* padding: 0; */
+    }
+
+    .committee_bottom {
+        margin-top: 0;
+    }
+
+    .new_footer_top {
+        grid-template-columns: 3fr 2fr 1fr 2fr;
+    }
+
+    .msg_top_right .heading h2 {
+        line-height: 200px;
+        font-size: 140px;
+        margin: 0;
+    }
+    .utility_wrap li {
+    font-size: 15px;
+    line-height: 20px;
+}
+.counter_zone_right ul li n {
+    font-size: 62px;
+    line-height: 66px;
+}
+.counter_zone_right ul li i {
+    font-size: 18px;
+}
+.counter_zone_left h5 {
+    font-size: 14px;
+    padding: 7px 10px;
+}
+.regi_box ul li {
+    font-size: 16px;
+}
+.regi_date h4 {
+    font-size: 70px;
+    line-height: 67px;
+}
+.regi_date h5 {
+    font-size: 16px;
+}
+.swiper {
+    aspect-ratio: 2 / 2.7;
+}
+.regi_box ul li {
+    font-size: 18px;
+}
+.msg_bottom {
+    width: 1200px;
+}
+}
+@media only screen and (min-width: 300px) and (max-width: 999px) {
+    :root {
+        --padding: 30px;
+        --p30: 15px;
+        --p40: 20px;
+        --p20: 10px;
+        --cominline: 5;
+        --facleft: 200px;
+        --regileft: 280px;
+        --sideslide: 12px;
+    }
+
+
+    .heading h5 {
+        font-size: 12px;
+    }
+
+    .heading h2 {
+        font-size: 47px;
+    }
+
+    .committee_wrap .heading h5,
+    .committee_wrap .heading h2 {
+        padding: 0;
+    }
+
+    .committee_inner {
+        padding: calc(var(--bs-gutter-x) / 2);
+    }
+
+    .committee_box h5,
+    .msg_committee_box h5 {
+        margin-bottom: 2px;
+        font-size: 13px;
+    }
+
+    .committee_box h6,
+    .msg_committee_box h6 {
+        font-size: 11px;
+    }
+
+
+
+    .new_footer_area {
+        padding: var(--p40) 0;
+    }
+
+
+    .venue_inner h4 {
+        font-size: 40px;
+    }
+
+    .venue_inner h6 {
+        font-size: 11px;
+    }
+
+    .msg_bottom p {
+        line-height: 21px;
+        font-size: 14px;
+        width: 46%;
+    }
+
+    .msg_bottom .msg_committee_inner {
+        width: 54%;
+    }
+
+    .vanue_distance_inner div {
+        width: 140px;
+    }
+
+    .vanue_distance_inner div p {
+        font-size: 10px;
+    }
+
+    .vanue_distance_inner div p n {
+        font-size: 12px;
+    }
+
+    .accm_right h4 {
+
+        font-size: 17px;
+    }
+
+    .accm_right ul li {
+        font-size: 14px;
+    }
+
+    .regi_inner {
+        width: 95%;
+    }
+
+    .accm-wrap .container {
+        width: calc(100% - 50px);
+    }
+
+    .intfacult {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .accm_inner {
+        padding-bottom: 25vh;
+    }
+
+    .regi_inner_right {
+        padding-left: 60px;
+    }
+
+    .inclution_wrap h4,
+    .counter_zone_left h4 {
+        margin-bottom: 12px;
+        font-size: 17px;
+        letter-spacing: .8px;
+    }
+
+    .counter_zone_left h4 {
+        margin-bottom: 0;
+    }
+
+    .main_btn {
+        padding: 8px 14px;
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .inner_page_banner h3 {
+        font-size: 123px;
+        line-height: 93px;
+    }
+
+    .committee_flex,
+    .faculty_wrap {
+        flex-direction: column;
+    }
+
+    .committe_left,
+    .faculty_left,
+    .faculty_right {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .committee_flex .committee_inner {
+        width: 100%;
+        padding: 0;
+    }
+
+    .committee_bottom {
+        margin-top: 0;
+    }
+
+    .new_footer_top {
+        grid-template-columns: 3fr 2fr 1fr 2fr;
+    }
+
+    .msg_top_right .heading h2 {
+        line-height: 74px;
+        font-size: 60px;
+        margin: 0;
+    }
+    .banner_component {
+
+object-fit: cover;
+
+height: 44%;
+}
+.regi_box ul li {
+    font-size: 14px;
+}
+.registation_end
+{
+        font-size: 50px;
+}
+.committee_box .com_img_box img, .msg_committee_box .com_img_box img {
+    margin-top: -6px;
+}
+.utility_wrap li img {
+    width: 61%;
+    padding: 3px;
+}
+.utility_wrap li {
+    font-size: 10px;
+    line-height: 13px;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    :root {
+        --cominline: 2;
+        --msgcominline: 2;
+    }
+
+    .d-mob {
+        display: block !important;
+    }
+
+    .d-dek {
+        display: none !important;
+    }
+
+    .msg_bottom {
+        width: 100%;
+        flex-direction: column;
+        gap: var(--p30);
+        margin-top: 0;
+    }
+
+    .msg_bottom p {
+        width: 100%;
+    }
+
+    .msg_bottom .msg_committee_inner {
+        width: 100%;
+        padding-left: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+    .regi_inner {
+        width: 100%;
+        flex-direction: column;
+        gap: var(--p40);
+    }
+
+    .regi_inner_left {
+        width: 245px;
+        margin: auto;
+    }
+
+    .regi_inner_right,
+    .committee_wrap .container,
+    .accm-wrap .container,
+    .regi_inner,
+    .msg_top_left,
+    .msg_top_right {
+        width: 100%;
+    }
+
+    .accmtariff {
+        flex-direction: column;
+        gap: var(--p20);
+    }
+
+    .accm_right hr {
+        height: 2px;
+        background: linear-gradient(90deg, transparent, var(--color3));
+        width: 100%;
+        margin: 0;
+    }
+
+    .accm_right ul {
+        align-items: end;
+    }
+
+    .accm_inner {
+        justify-content: end;
+        padding-bottom: 14vh;
+    }
+
+    .accm_right {
+        width: 77%;
+    }
+
+    .accm_right h4 {
+        text-align: right;
+
+    }
+
+    .regi_inner_right {
+        padding-left: 0;
+    }
+
+    .intfacult {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .msg_top {
+        flex-direction: column;
+        gap: var(--p20);
+        margin-bottom: var(--p30);
+    }
+
+    .msg_top_left_1 {
+        /* flex: 1; */
+    }
+
+    .msg_top_right {
+        padding-left: 0;
+    }
+
+    .msg_top_right_bottom {
+        transform: translate(0px, 0px) !important;
+    }
+
+    .inner_page_banner h3 {
+        font-size: 56px;
+        line-height: 43px;
+    }
+
+    .committee_bottom {
+        margin-top: var(--p40);
+    }
+
+    .new_footer_top {
+        grid-template-columns: 1fr;
+    }
+    .banner_content {
+    width: 84%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+}
